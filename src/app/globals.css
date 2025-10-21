@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+body {
+	background: #050c9c;
+	background-image: radial-gradient(hsl(0, 0%, 0%) 1px, transparent 1px);
+	background-size: 16px 16px;
+	color: #fff;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+/*  */
+.footer {
+	background-color: #252525;
+}
+.footer .container {
+	max-width: 1216px;
+}
