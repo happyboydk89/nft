@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import PageTop from '@/components/PageTop';
 
 const Footer = () => (
 	<footer className="footer relative">
@@ -9,12 +10,16 @@ const Footer = () => (
 					<Image src="/logo.png" width={300} height={52} alt="次世代NFT" />
 				</Link>
 			</div>
-			<ul className="links">
+			<ul className="links flex flex-col gap-[15px] md:gap-[30px]">
 				<li>
-					<Link href="/">FAQ</Link>
+					<Link href="/" className="block duration-150 hover:opacity-70">
+						FAQ
+					</Link>
 				</li>
 				<li>
-					<Link href="/">プライバシーポリシー</Link>
+					<Link href="/" className="block duration-150 hover:opacity-70">
+						プライバシーポリシー
+					</Link>
 				</li>
 			</ul>
 			<div className="sns">
@@ -29,11 +34,7 @@ const Footer = () => (
 			</div>
 		</div>
 		<p className="copyright text-center text-[14px] pt-[10px] pb-[20px]">Copyright © 次世代NFT</p>
-		<div className="pagetop absolute top-[-40px] right-[40px]">
-			<Link href="#top">
-				<Image src="/pagetop.png" width={65} height={85} alt="TOP↑" />
-			</Link>
-		</div>
+		<PageTop />
 	</footer>
 );
 
