@@ -6,7 +6,7 @@ const What = () => (
 		<div className="container mx-auto mw-[1440px] px-[40px]">
 			<div className="box xl:flex bg-[#fff] text-[#000] px-[30px] md:px-[66px] rounded-[60px]">
 				<h2 className="">
-					<Image src="/title1.svg" width={488} height={452} alt="次世代NFT" />
+					<Image src="/title1.svg" width={488} height={452} alt="次世代NFT" loading="lazy" />
 				</h2>
 				<div className="text pt-[67px] md:pt-[134px] pb-[166px] md:pb-[333px] lh-[1.8] md:leading-[2.0] text-[18px] pl-[0px] md:pl-[40px]">
 					<p>

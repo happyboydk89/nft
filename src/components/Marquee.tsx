@@ -16,11 +16,7 @@ export default function Marquee({ x = -1, duration = 18 }: Props) {
 		<div className={`marquee marquee--${dir}`} style={{ ['--marquee-duration' as any]: `${duration}s` }}>
 			<div className="marquee__inner">
 				<div className="marquee__group">
-					{items.map((i) => (
-						<div key={i} className="marquee__item">
-							<Image src="/deco.svg" width={1440} height={59} alt="次世代NFT" />
-						</div>
-					))}
+					<Image src="/deco.svg" width={1440} height={59} alt="次世代NFT" />
 				</div>
 
 				<div className="marquee__group" aria-hidden="true">

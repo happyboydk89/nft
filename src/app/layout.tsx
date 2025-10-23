@@ -24,7 +24,7 @@ export default function RootLayout({
 		<html lang="ja">
 			<body id="top" className={`${mplus1p.variable}`}>
 				<Header />
-				<main>{children}</main>
+				<main className="main">{children}</main>
 				<Footer />
 			</body>
 		</html>

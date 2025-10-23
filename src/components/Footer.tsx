@@ -6,7 +6,7 @@ const Footer = () => (
 	<footer className="footer relative">
 		<div className="container mx-auto xl:flex justify-between pt-[160px] pb-[102px] mw-[1216px] px-[15px]">
 			<div className="logo">
-				<Link href="/">
+				<Link href="/" className="block duration-150 hover:opacity-70">
 					<Image src="/logo.png" width={300} height={52} alt="次世代NFT" />
 				</Link>
 			</div>
@@ -23,12 +23,12 @@ const Footer = () => (
 				</li>
 			</ul>
 			<div className="sns">
-				<Link href="/">
+				<Link href="/" className="block duration-150 hover:opacity-70">
 					<Image src="/line.png" width={208} height={52} alt="LINEでお問い合わせ" />
 				</Link>
 			</div>
 			<div className="logo-portal">
-				<Link href="/">
+				<Link href="/" className="block duration-150 hover:opacity-70">
 					<Image src="/portal.svg" width={228} height={103} alt="次世代" />
 				</Link>
 			</div>

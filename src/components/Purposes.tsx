@@ -20,63 +20,63 @@ export default function Purposes() {
 				}}
 			>
 				<SwiperSlide>
-					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" />
+					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" loading="lazy" />
 					<dl>
 						<dt>デジタルアート</dt>
 						<dd>アーティストが自身のデジタルアート作品をNFTとして販売することで、作品の所有権を証明し、転売の際にも収益を得ることができます。</dd>
 					</dl>
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" />
+					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" loading="lazy" />
 					<dl>
 						<dt>デジタルアート</dt>
 						<dd>アーティストが自身のデジタルアート作品をNFTとして販売することで、作品の所有権を証明し、転売の際にも収益を得ることができます。</dd>
 					</dl>
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" />
+					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" loading="lazy" />
 					<dl>
 						<dt>デジタルアート</dt>
 						<dd>アーティストが自身のデジタルアート作品をNFTとして販売することで、作品の所有権を証明し、転売の際にも収益を得ることができます。</dd>
 					</dl>
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" />
+					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" loading="lazy" />
 					<dl>
 						<dt>デジタルアート</dt>
 						<dd>アーティストが自身のデジタルアート作品をNFTとして販売することで、作品の所有権を証明し、転売の際にも収益を得ることができます。</dd>
 					</dl>
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" />
+					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" loading="lazy" />
 					<dl>
 						<dt>デジタルアート</dt>
 						<dd>アーティストが自身のデジタルアート作品をNFTとして販売することで、作品の所有権を証明し、転売の際にも収益を得ることができます。</dd>
 					</dl>
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" />
+					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" loading="lazy" />
 					<dl>
 						<dt>デジタルアート</dt>
 						<dd>アーティストが自身のデジタルアート作品をNFTとして販売することで、作品の所有権を証明し、転売の際にも収益を得ることができます。</dd>
 					</dl>
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" />
+					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" loading="lazy" />
 					<dl>
 						<dt>デジタルアート</dt>
 						<dd>アーティストが自身のデジタルアート作品をNFTとして販売することで、作品の所有権を証明し、転売の際にも収益を得ることができます。</dd>
 					</dl>
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" />
+					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" loading="lazy" />
 					<dl>
 						<dt>デジタルアート</dt>
 						<dd>アーティストが自身のデジタルアート作品をNFTとして販売することで、作品の所有権を証明し、転売の際にも収益を得ることができます。</dd>
 					</dl>
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" />
+					<Image src="/purpose1.jpg" width={420} height={420} alt="デジタルアート" loading="lazy" />
 					<dl>
 						<dt>デジタルアート</dt>
 						<dd>アーティストが自身のデジタルアート作品をNFTとして販売することで、作品の所有権を証明し、転売の際にも収益を得ることができます。</dd>

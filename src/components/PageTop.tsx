@@ -21,7 +21,7 @@ export default function PageTop() {
 
 	return (
 		<div className="pagetop absolute top-[-62px] right-[40px]">
-			<Link href="#top" onClick={scrollToTop}>
+			<Link href="#top" onClick={scrollToTop} className="block duration-150 hover:opacity-70">
 				<Image src="/pagetop.png" width={65} height={85} alt="TOP↑" />
 			</Link>
 		</div>
