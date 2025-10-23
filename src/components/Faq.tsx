@@ -48,7 +48,7 @@ export default function Faq() {
 	);
 }
 
-function AccordionItem({ idPrefix, index, open, onToggle, q, a }: { idPrefix: string; index: number; open: boolean; onToggle: () => void; q: string; a: string }) {
+function AccordionItem({ idPrefix, open, onToggle, q, a }: { idPrefix: string; index: number; open: boolean; onToggle: () => void; q: string; a: string }) {
 	const contentRef = useRef<HTMLDivElement | null>(null);
 	const contentId = useId();
 	const buttonId = `${idPrefix}-btn`;

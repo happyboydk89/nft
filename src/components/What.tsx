@@ -16,12 +16,12 @@ const What = () => (
 						<br className="hidden md:block" />
 						です。証明番号は第三者から書き換えられたりするリスクがな
 						<br className="hidden md:block" />
-						く、デジタルの世界に"ひとつだけ"であることを証明するために
+						く、デジタルの世界に&ldquo;ひとつだけ&ldquo;であることを証明するために
 						<br className="hidden md:block" />
 						使われています。
 					</p>
 					<p className="text-[16px]">
-						※Non-Fungible Token（ノンファンジブルトークン）の略称で、
+						※Non-Fungible Token(ノンファンジブルトークン)の略称で、
 						<br className="hidden md:block" />
 						日本語では「非代替性トークン」と訳されることが多いです。
 					</p>

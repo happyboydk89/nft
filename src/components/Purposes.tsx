@@ -1,6 +1,5 @@
 'use client';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import Image from 'next/image';
 
@@ -8,7 +7,6 @@ export default function Purposes() {
 	return (
 		<div className="purposes px-[30px]">
 			<Swiper
-				//modules={[Autoplay]}
 				spaceBetween={20}
 				slidesPerView={3}
 				loop={false}

@@ -1,17 +1,17 @@
 'use client';
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
 export default function PageTop() {
-	const [visible, setVisible] = useState(false);
+	// const [visible, setVisible] = useState(false);
 
-	useEffect(() => {
-		const onScroll = () => setVisible(window.scrollY > 200);
-		onScroll();
-		window.addEventListener('scroll', onScroll, { passive: true });
-		return () => window.removeEventListener('scroll', onScroll);
-	}, []);
+	// useEffect(() => {
+	// 	const onScroll = () => setVisible(window.scrollY > 200);
+	// 	onScroll();
+	// 	window.addEventListener('scroll', onScroll, { passive: true });
+	// 	return () => window.removeEventListener('scroll', onScroll);
+	// }, []);
 
 	const scrollToTop = () => {
 		if (typeof window !== 'undefined') {
